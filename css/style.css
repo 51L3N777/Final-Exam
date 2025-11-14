@@ -12,3 +12,16 @@ main {
     gap: 2rem;
 }
 
+#register-btn {
+    transition: transform 0.3s ease;
+}
+
+#register-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
