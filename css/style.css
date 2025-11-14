@@ -5,3 +5,10 @@ nav ul {
     list-style: none;
     padding: 0;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
